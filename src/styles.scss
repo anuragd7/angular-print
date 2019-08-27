@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+// @page {
+//     size: auto;
+//     margin: 0mm;
+// }
+
+//   @page {
+//   margin-top: 10.5cm !important;
+//   margin-bottom: 3.67cm !important;
+//   margin-left: 5.9cm !important;
+//   margin-right: 1.32cm !important;
+// }
+@media print {
+    @page { 
+        size: auto;
+        margin: 0; 
+    }
+    body { 
+        margin: 6cm !important;
+    }
+}
